@@ -1,0 +1,660 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="6282bba9-67f7-4ccb-8adc-8a44564d2bfe" Name="Sigmascape" Enabled="true">
+    <Folders>
+      <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="true" EventFilterEnabled="false" Id="70216045-0378-41ba-aafb-f8997cd27f7c" ZoneFilterRegularExpression="Sigmascape V1\.0" Name="V1.0" Enabled="false">
+        <Folders>
+          <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="84e52ee9-56dc-46e4-bda6-276842e29b2b" Name="Phantom Train" Enabled="false">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="false" Name="Phantom Train readies Acid Rain" Id="d5048771-afd1-4f00-9ecf-38144a1536a5" RegularExpression="Phantom Train readies Acid Rain" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="AoE" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="false" Name="Phantom Train readies Diabolic Headlamp" Id="19af7b1f-7c02-4daa-825d-d75f20305ec8" RegularExpression="Phantom Train readies Diabolic Headlamp" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="stack" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="false" Name="Phantom Train readies Head On" Id="92d1d82e-aca8-4319-85e8-2506dd76401c" RegularExpression="Phantom Train readies Head On" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="knockback" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="false" Name="suffers the effect of Prey." Id="8eaa3964-76f7-40e6-b2ac-77351541c9a1" RegularExpression="suffers the effect of Prey." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="false" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Prey" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="The Phantom Train readies Doom Strike." Id="552217da-c7c3-4763-8f98-bb3443f42ce3" RegularExpression="The Phantom Train readies Doom Strike." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Magic tank buster" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="The Phantom Train uses Diabolic Whistle." Id="af0fbe3f-4dc8-4ca2-a599-43c64a86d949" RegularExpression="The Phantom Train uses Diabolic Whistle." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Ghosts" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="5a64fc19-0242-45d6-b6fb-9e730b8cddb3" Name="Remorse" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="^03:Added new combatant Remorse" Id="04e60137-1142-4c9b-9102-61df889c50a0" RegularExpression="^03:Added new combatant Remorse" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Knockback" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="true" EventFilterEnabled="false" Id="0f35500a-7f3e-41fd-ae3a-3a3d2e6c8331" ZoneFilterRegularExpression="Sigmascape V2\.0" Name="V2.0" Enabled="false">
+        <Folders>
+          <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="b436e619-96b1-4a44-897f-22b2742488df" Name="Demon Chadarnook" Enabled="false">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Demon Chadarnook readies Demonic Howl" Id="6b6a8fb4-62a3-4380-aa2c-c22600d6fd74" RegularExpression="Demon Chadarnook readies Demonic Howl" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="AoE" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Demon Chadarnook readies Demonic Pain" Id="c176405f-c839-4e0f-bf3d-433a1ba75901" RegularExpression="Demon Chadarnook readies Demonic Pain" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="away" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Demon Chadarnook readies Demonic Shear" Id="36f89323-d9e5-452a-b1bb-2db774f85feb" RegularExpression="Demon Chadarnook readies Demonic Shear" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Tank buster" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Demon Chadarnook readies Demonic Wave" Id="299e89d3-7a00-47e1-ba0a-07e5f9878170" RegularExpression="Demon Chadarnook readies Demonic Wave" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="behind block" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Demon Chadarnook readies Possession" Id="b5665c9d-73e0-4cd9-8ebc-3a272b25d375" RegularExpression="Demon Chadarnook readies Possession" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="painting" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Marked for Demonic Stone" Id="53af5b62-0ffb-4750-9a52-8b36d32d209f" RegularExpression="1B:[0-9A-F]{8}:(?&lt;name&gt;[a-zA-Z'\- ]+):[0-9A-F]{4}:93E8:0017:[0-9A-F]{4}:[0-9A-F]{4}:[0-9A-F]{4}:" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Marked" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions>
+                  <Condition OrderNumber="1" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualCase" Enabled="true" />
+                </Conditions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="7894d355-2555-4b0d-bd60-62e935f90a7d" Name="Goddess Chadarnook" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Goddess Chadarnook readies Lullaby." Id="933cdb05-1943-4063-941d-b639c95e141c" RegularExpression="Goddess Chadarnook readies Lullaby." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="clip dot" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Marked for Last Kiss" Id="ae408f30-05e7-45fd-83ce-a6a178eca398" RegularExpression="1B:[0-9A-F]{8}:(?&lt;name&gt;[a-zA-Z'\- ]+):[0-9A-F]{4}:93E8:0017:[0-9A-F]{4}:[0-9A-F]{4}:[0-9A-F]{4}:" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Debuff" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions>
+                  <Condition OrderNumber="1" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualCase" Enabled="true" />
+                </Conditions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="a9149633-49e8-4a8b-972f-2a25ebac7fde" Name="Portrayal of Wind" Enabled="false">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Flash Gale" Id="42252afb-c469-44ff-aceb-16785f8dfd46" RegularExpression="03:Added new combatant Portrayal of Wind" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Invuln" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="true" EventFilterEnabled="false" Id="45037eb7-482d-43bc-866c-0ed7548bf056" ZoneFilterRegularExpression="Sigmascape V3\.0" Name="V3.0" Enabled="false">
+        <Folders>
+          <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="0e051f7d-11af-43d0-bcad-bd1c44ac3070" Name="Guardian" Enabled="true">
+            <Folders>
+              <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="19465f45-764b-45ba-9d37-ba72368355a0" Name="Timeline Modification" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="Do All The Things - Bibliotaph" Id="fa5efd66-5f26-4994-a904-f36f20a7f444" RegularExpression="Guardian starts using (Load|Retrieve|Skip|Paste)" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetNumeric" VariableName="Counter" VariableExpression="${var:Counter} + 1" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="2" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Knockback" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="3" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Ink Ink" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="4" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Air Force" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="4" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="5" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Tethers" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="5" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="6" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Ink Ink" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="6" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="7" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Air Force" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="9" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="8" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Knockback" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:O7SRNG}" ExpressionTypeL="String" ExpressionR="Bibliotaph" ExpressionTypeR="String" ConditionType="RegexMatch" Enabled="true" />
+                          <Condition OrderNumber="2" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="8" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="9" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="North South" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:O7SRNG}" ExpressionTypeL="String" ExpressionR="Dadaluma" ExpressionTypeR="String" ConditionType="RegexMatch" Enabled="true" />
+                          <Condition OrderNumber="2" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="8" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                    </Actions>
+                    <Conditions>
+                      <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" Enabled="true" />
+                      <Condition OrderNumber="2" ExpressionL="${var:Program}" ExpressionTypeL="String" ExpressionR="Bibliotaph" ExpressionTypeR="String" ConditionType="RegexMatch" Enabled="true" />
+                    </Conditions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Do All The Things - Dadaluma" Id="2bfcabdc-abb9-4708-aca9-60ccaf7d948c" RegularExpression="Guardian starts using (Load|Retrieve|Skip|Paste)" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetNumeric" VariableName="Counter" VariableExpression="${var:Counter} + 1" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="2" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="North South" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="3" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Air Force" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="4" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Ink Ink" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="4" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="5" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Tethers" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="5" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="6" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Air Force" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="6" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="7" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Ink Ink then stack" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="9" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="8" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Knockback" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="8" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                          <Condition OrderNumber="2" ExpressionL="${var:O7SRNG}" ExpressionTypeL="String" ExpressionR="Bibliotaph" ExpressionTypeR="String" ConditionType="RegexMatch" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="9" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="North South" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="8" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                          <Condition OrderNumber="2" ExpressionL="${var:O7SRNG}" ExpressionTypeL="String" ExpressionR="Dadaluma" ExpressionTypeR="String" ConditionType="RegexMatch" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                    </Actions>
+                    <Conditions>
+                      <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" Enabled="true" />
+                      <Condition OrderNumber="2" ExpressionL="${var:Program}" ExpressionTypeL="String" ExpressionR="Dadaluma" ExpressionTypeR="String" ConditionType="RegexMatch" Enabled="true" />
+                    </Conditions>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Program Set" Id="2536c676-4aa1-48ef-9dfb-21ee563ce381" RegularExpression="The Guardian gains the effect of (?&lt;current&gt;.*) Simulation" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetString" VariableName="Program" VariableExpression="${current}" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="2" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetNumeric" VariableName="Counter" VariableExpression="${var:Counter} + 1" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="3" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetString" VariableName="O7SRNG" VariableExpression="${current}" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="7" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="4" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="${current} pattern" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="5" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="${current}" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:Counter}" ExpressionTypeL="Numeric" ExpressionR="7" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                    </Actions>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Setup / Reset" Id="8a19ae59-840f-455f-8b95-ba8fa5c36b89" RegularExpression="Engage!" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" VariableName="Program" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="2" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetNumeric" VariableName="Counter" VariableExpression="0" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="3" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" VariableName="O7SRNG" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="4" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Trigger" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="CancelTrigger" TriggerForce="" TriggerId="fa5efd66-5f26-4994-a904-f36f20a7f444" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="5" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Trigger" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="CancelTrigger" TriggerForce="" TriggerId="2bfcabdc-abb9-4708-aca9-60ccaf7d948c" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="6" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Trigger" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="CancelTrigger" TriggerForce="" TriggerId="2536c676-4aa1-48ef-9dfb-21ee563ce381" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                    </Actions>
+                    <Conditions />
+                  </Trigger>
+                </Triggers>
+              </Folder>
+            </Folders>
+            <Triggers>
+              <Trigger Enabled="true" Name="Guardian readies Arm and Hammer" Id="b81a56ad-01c3-4710-9cfa-7b548956c32a" RegularExpression="^\[\d\d:\d\d:\d\d.\d\d\d\] 14:2789:Guardian" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Tank Buster" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Guardian readies Atomic Ray" Id="81fddda8-7f55-4527-9f8f-cb2044188134" RegularExpression="Guardian readies Atomic Ray" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="DPS drop bombs" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Guardian readies Diffractive Plasma" Id="091917dc-121b-496e-b50f-1454514f7340" RegularExpression="Guardian readies Diffractive Plasma" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="AOE Damage" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Guardian readies Magitek Ray" Id="211584a6-3b24-464c-a723-63242787a83c" RegularExpression="Guardian readies Magitek Ray" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Beam" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Guardian readies Missile Simulation" Id="bc396ed2-d2a5-4616-9f36-49fc42494b32" RegularExpression="Guardian readies Missile Simulation" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Missiles" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Guardian readies Run Program" Id="7cc326f3-e962-478d-9a4f-b863b8cd4409" RegularExpression="Guardian readies Run Program" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Adds" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="You suffer the effect of Abandonment" Id="68b39343-2858-4135-a4aa-5902e8c474b6" RegularExpression="You suffer the effect of Abandonment" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Abandonment" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="You suffer the effect of Aether Rot" Id="da8fd992-e3f1-42bc-a93d-136034cfbb06" RegularExpression="You suffer the effect of Rot" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Aether Rot" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="You suffer the effect of Searing Wind" Id="d141c636-6ff5-47fa-8704-9f3cb263143a" RegularExpression="You suffer the effect of Searing Wind" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Searing Wind" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Ultros begins casting Stoneskin." Id="0dfd73f7-9a4f-4832-b499-7ce22c6b81ea" RegularExpression="Ultros begins casting Stoneskin." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Silence Stoneskin" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="15e666dd-a30f-4299-9553-79ed63a73a5e" Name="Dadaluma" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="Wave Cannon" Id="a663efe1-a7d4-4743-8257-c95e39f7e1e3" RegularExpression="1B:[0-9A-F]{8}:(?&lt;char&gt;[a-zA-Z']*) [a-zA-Z']{1,}:[0-9A-F]{4}:[0-9A-F]{4}:000E:[0-9A-F]{4}:[0-9A-F]{4}:[0-9A-F]{4}:" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Blue on ${char}" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="true" EventFilterEnabled="false" Id="6c2889dd-e5e2-49af-a2d9-e981cd3d762b" ZoneFilterRegularExpression="Sigmascape V4\.0" Name="V4.0" Enabled="false">
+        <Folders>
+          <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="19d77f33-756c-40c0-bc34-2d5f7bad9802" Name="God Kefka" Enabled="false">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="false" Name="Wings of Destruction: Proximity" Id="bbcb5d6e-dba9-47b0-ad7c-735cd496cfaf" RegularExpression="14:2900:Kefka starts using Wings Of Destruction on Kefka" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Max melee" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="false" Name="Kefka starts using Future's End." Id="a88d23f7-d10d-4d5d-89b6-eb0be1a0bd0b" RegularExpression="Kefka starts using Future's End." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Future" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="false" Name="Kefka starts using Past's End." Id="649442ae-98e3-406e-aef7-73c4aa8818c5" RegularExpression="Kefka starts using Past's End." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Past" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="Wings of Destruction: Halfcut" Id="5bc7a1ea-b218-4c15-9f41-78adaaa9ee43" RegularExpression="14:2901:Kefka starts using Wings Of Destruction on Kefka" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                <Actions />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="fdcba40c-0c53-4c65-aac5-9cc9e2003ccb" Name="Kefka" Enabled="false">
+            <Folders>
+              <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="b4e9ced9-bdd9-4d55-9eda-1f7b176e7227" Name="Mana Charge" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="Blizzard Blitz (Donut AoE)" Id="3466043b-2a79-45ee-897c-a00b57a1136b" RegularExpression=":Kefka:28C[59]:Blizzard Blitz:" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetString" VariableName="blizzard" VariableExpression="2" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                    </Actions>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Blizzard Blitz (PBAoE)" Id="a9391d89-159a-4e99-941b-20760df91dcb" RegularExpression=":Kefka:28C[48]:Blizzard Blitz:" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetString" VariableName="blizzard" VariableExpression="1" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                    </Actions>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Jester's Antics" Id="576764f3-daf3-42e9-aa5c-70afcb36fadb" RegularExpression="15:[0-9A-F]{8}:Kefka:[0-9A-F]{4}:Blizzard Blitz:.*(:11:5CE0000:1C:)" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetNumeric" VariableName="real" VariableExpression="0" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                    </Actions>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Jester's Truths" Id="420d6932-0473-4656-b7ae-42e1eba1d6f0" RegularExpression="15:[0-9A-F]{8}:Kefka:[0-9A-F]{4}:Blizzard Blitz:.*(:11:5CF0000:1C:)" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetNumeric" VariableName="real" VariableExpression="1" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                    </Actions>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Fire (Spread)" Id="c32e9ba3-8d5d-4eea-a64d-a23d5964f83e" RegularExpression=":Kefka:28CF:Flagrant Fire:" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetString" VariableName="voice" VariableExpression="Spread" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                    </Actions>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Fire (Stack)" Id="7bdfe2fd-c1d4-496d-9d74-d47764c2af4c" RegularExpression=":Kefka:28D0:Flagrant Fire:" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Deny" RefirePeriodExpression="1000">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetString" VariableName="voice" VariableExpression="Stack" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                    </Actions>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Thunder (Dodge)" Id="ac218a05-2b31-42a1-90ed-1272d921c880" RegularExpression="15:[0-9A-F]{8}:Kefka:[0-9A-F]{4}:Thrumming Thunder:.*(:11:5CF0000:1C:)" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetString" VariableName="voice" VariableExpression="Dodge Thunder" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                    </Actions>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Thunder (Intersect)" Id="dc87c26c-8b98-4781-a0e6-a544576d7bcd" RegularExpression="15:[0-9A-F]{8}:Kefka:[0-9A-F]{4}:Thrumming Thunder:.*(:11:5CE0000:1C:)" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetString" VariableName="voice" VariableExpression="Intersect Thunder" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                    </Actions>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Kefka readies Mana Release" Id="8e1aa12c-a4a2-47ca-8901-903c94d28e1b" RegularExpression="Kefka readies Mana Release" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="${var:voice}, ${var:voice2}" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                    </Actions>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Kefka readies Graven Image" Id="b5976012-3b37-49c2-8738-a684f7cadc14" RegularExpression="Kefka readies Graven Image" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetString" VariableName="voice2" VariableExpression="Inside Circle" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:real}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                          <Condition OrderNumber="2" ExpressionL="${var:blizzard}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="2" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetString" VariableName="voice2" VariableExpression="Outside Circle" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:real}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                          <Condition OrderNumber="2" ExpressionL="${var:blizzard}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="3" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetString" VariableName="voice2" VariableExpression="Outside Circle" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:real}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                          <Condition OrderNumber="2" ExpressionL="${var:blizzard}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="4" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="SetString" VariableName="voice2" VariableExpression="Inside Circle" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions>
+                          <Condition OrderNumber="1" ExpressionL="${var:real}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                          <Condition OrderNumber="2" ExpressionL="${var:blizzard}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" Enabled="true" />
+                        </Conditions>
+                      </Action>
+                    </Actions>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Kefka readies Mana Charge" Id="38aa771a-ed92-4238-8253-dcede3111429" RegularExpression="Kefka readies Mana Charge" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0">
+                    <Actions>
+                      <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" VariableName="voice" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="2" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" VariableName="voice2" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="3" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" VariableName="real" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                      <Action DiscordTts="false" OrderNumber="4" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="Variable" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="true" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" VariableName="blizzard" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                        <Conditions />
+                      </Action>
+                    </Actions>
+                    <Conditions />
+                  </Trigger>
+                </Triggers>
+              </Folder>
+            </Folders>
+            <Triggers />
+          </Folder>
+          <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="d5d40758-e3ba-4384-9855-99fe2110334b" Name="Graven Image" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="false" Name="Graven Image starts using Ave Maria" Id="a0372e77-e940-4848-965b-6d78a8ca7037" RegularExpression="Graven Image starts using Ave Maria" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="look towards" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="false" Name="Graven Image starts using Indolent Will on Graven Image" Id="2ed2a03c-3853-405b-ae92-5837a50e593e" RegularExpression="Graven Image starts using Indolent Will on Graven Image" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="look away" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="false" Name="Graven Image starts using Pulse Wave on Player" Id="60253125-cb3c-42e6-81ce-14f022c45651" RegularExpression="^\[\d\d:\d\d:\d\d.\d\d\d\] 14:28DD:Graven Image starts using Pulse Wave on (?&lt;name&gt;[a-zA-Z'\- ]+)" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="kay bee" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions>
+                  <Condition OrderNumber="1" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualCase" Enabled="true" />
+                </Conditions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Graven Image starts using Indulgent Will on Player" Id="1ac00169-5514-47c8-b8e7-978ecde691c1" RegularExpression="^\[\d\d:\d\d:\d\d.\d\d\d\] 14:28E5:Graven Image starts using Indulgent Will on (?&lt;name&gt;[a-zA-Z'\- ]+)" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Charmed" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions>
+                  <Condition OrderNumber="1" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualCase" Enabled="true" />
+                </Conditions>
+              </Trigger>
+              <Trigger Enabled="true" Name="Graven Image starts using Idyllic Will on Player" Id="fbf90669-d457-40e3-b333-503595ff35f4" RegularExpression="^\[\d\d:\d\d:\d\d.\d\d\d\] 14:28E6:Graven Image starts using Idyllic Will on (?&lt;name&gt;[a-zA-Z'\- ]+)" DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="">
+                <Actions>
+                  <Action DiscordTts="false" OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="0" TextAuraEffect="None" TextAuraUseOutline="false" Enabled="true" ActionType="UseTTS" ExecutionDelayExpression="0" Asynchronous="true" DebugLevel="Inherit" RefireInterrupt="false" RefireRequeue="true" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" PlaySoundExclusive="true" UseTTSTextExpression="Sleep" UseTTSVolumeExpression="100" UseTTSRateExpression="0" UseTTSExclusive="true" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White">
+                    <Conditions />
+                  </Action>
+                </Actions>
+                <Conditions>
+                  <Condition OrderNumber="1" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualCase" Enabled="true" />
+                </Conditions>
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+    </Folders>
+    <Triggers />
+  </ExportedFolder>
+</TriggernometryExport>
