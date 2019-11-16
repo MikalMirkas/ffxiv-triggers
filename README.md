@@ -1,3 +1,4 @@
 # ffxiv-triggers
-triggernometry stuff
-Some of these triggers depend on settings.xml, you can ignore it otherwise.
+Generic triggers for Ultimate fights and whatever else.
+
+I no longer play FFXIV, but support those who do in the form of these triggers. Documentation can be found in the wiki.
