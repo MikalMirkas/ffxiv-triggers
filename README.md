@@ -10,3 +10,5 @@ I no longer play FFXIV, but support those who do in the form of these triggers. 
 
 [Mika's XIV Google Drive](https://drive.google.com/drive/u/0/folders/1_75-KdIF1xfKFNkeCihFFMdrSY3tUjLN)
 * Miscellaneous resources for FFXIV, including the contents of this repository.
+
+[Official Discord](http://bit.ly/MikaTriggers)
