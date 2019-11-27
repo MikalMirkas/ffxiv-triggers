@@ -61,6 +61,28 @@
               <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
             </Condition>
           </Trigger>
+          <Trigger Enabled="true" Name="Outburst" Id="b4e7c5cd-76f1-482a-9639-9004d47dd8fa" RegularExpression="Embolus:.{4}:Outburst:.{8}:(?&lt;name&gt;[a-zA-Z'\- ]+)">
+            <Actions>
+              <Action OrderNumber="1" PlaySoundFileExpression="C:\Program Files (x86)\Advanced Combat Tracker\resources\wav\honk.wav" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="PlaySound">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="2" AuraImageMode="StretchImage" AuraName="Outburst_Pop" AuraImage="C:\Program Files (x86)\Advanced Combat Tracker\resources\icon\jobs\BRD1.jpg" AuraXIniExpression="146" AuraYIniExpression="84" AuraWIniExpression="368" AuraHIniExpression="441" AuraOIniExpression="100" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Aura">
+                <Condition Enabled="true" Grouping="Or">
+                  <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="Kipling Pryderi" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                  <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="Kynbrochis Paydellus" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="3" AuraOp="DeactivateAllAura" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Aura" ExecutionDelayExpression="10000">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or">
+              <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+            </Condition>
+          </Trigger>
         </Triggers>
       </Folder>
       <Folder Id="dc64b3a4-4f74-42e6-b87a-7b00efd2ce03" Name="Limit Cut Transition" Enabled="true">
@@ -156,7 +178,7 @@
           </Trigger>
         </Triggers>
       </Folder>
-      <Folder Id="400ee88b-13e4-4ca9-8574-e02d61bcc1f0" Name="Wormhole - Haru" Enabled="true">
+      <Folder Id="400ee88b-13e4-4ca9-8574-e02d61bcc1f0" Name="Wormhole - Haru" Enabled="false">
         <Folders />
         <Triggers>
           <Trigger Enabled="true" Name="Limit Cut Trigger" Id="b36955f4-7754-4a59-9037-24aaaf43524d" RegularExpression="B:.{8}:(?&lt;name&gt;[a-zA-Z'\- ]+):\d{4}:.{4}:0{2}(?&lt;hex&gt;[0-9A-F]+):0{4}:0{4}:0{4}:">
@@ -267,7 +289,79 @@
       <Folder Id="d06ffab2-8181-490c-9557-1674a3941d3b" Name="Wormhole - TPS" Enabled="true">
         <Folders />
         <Triggers>
-          <Trigger Enabled="true" Name="Limit Cut Trigger" Id="a603da19-3dab-45e8-ba32-f33eed06e05c" RegularExpression="B:.{8}:(?&lt;name&gt;[a-zA-Z'\- ]+):\d{4}:.{4}:0{2}(?&lt;hex&gt;[0-9A-F]+):0{4}:0{4}:0{4}:">
+          <Trigger Enabled="true" Name="Trigger Listener" Id="a2344308-0853-4d6c-a61c-22224d4953f9" RegularExpression="(casts|uses) Wormhole Formation">
+            <Actions>
+              <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="Wormhole" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" VariableName="Wormhole" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" ExecutionDelayExpression="30000">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+          </Trigger>
+          <Trigger Enabled="true" Name="Alternate text Limit Cut Trigger" Id="4fc5aa6a-aabf-46cb-8159-48d675a462da" RegularExpression="B:.{8}:(?&lt;name&gt;[a-zA-Z'\- ]+):\d{4}:.{4}:0{2}(?&lt;hex&gt;[0-9A-F]+):0{4}:0{4}:0{4}:">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="One CC,  third puddle look out" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${numeric:${func:hex2dec:${hex}}-78}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="2" UseTTSTextExpression="Two Opposite CC, third puddle look middle" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${hex}" ExpressionTypeL="Numeric" ExpressionR="0050" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="3" UseTTSTextExpression="Three BJ, look outside" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${hex}" ExpressionTypeL="Numeric" ExpressionR="0051" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="4" UseTTSTextExpression="Four Opposite BJ, look middle" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${hex}" ExpressionTypeL="Numeric" ExpressionR="0052" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="5" UseTTSTextExpression="Five CC side cardinal, first puddle look outside" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${hex}" ExpressionTypeL="Numeric" ExpressionR="0053" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="6" UseTTSTextExpression="Six BJ side cardinal, first puddle look middle" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${hex}" ExpressionTypeL="Numeric" ExpressionR="0054" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="7" UseTTSTextExpression="Seven CC side cardinal, second puddle look outside" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${hex}" ExpressionTypeL="Numeric" ExpressionR="0055" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="8" UseTTSTextExpression="Eight BJ side cardinal, second puddle look middle" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${hex}" ExpressionTypeL="Numeric" ExpressionR="0056" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                </Condition>
+                <Conditions />
+              </Action>
+              <Action OrderNumber="9" VariableName="Wormhole" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+              <ConditionSingle Enabled="true" ExpressionL="${evar:Wormhole}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+            </Condition>
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="false" Name="Limit Cut Trigger" Id="a603da19-3dab-45e8-ba32-f33eed06e05c" RegularExpression="B:.{8}:(?&lt;name&gt;[a-zA-Z'\- ]+):\d{4}:.{4}:0{2}(?&lt;hex&gt;[0-9A-F]+):0{4}:0{4}:0{4}:">
             <Actions>
               <Action OrderNumber="1" UseTTSTextExpression="One, Cruise Chaser, third void, look outside" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                 <Condition Enabled="true" Grouping="And">
@@ -328,25 +422,11 @@
             </Condition>
             <Conditions />
           </Trigger>
-          <Trigger Enabled="true" Name="Trigger Listener" Id="a2344308-0853-4d6c-a61c-22224d4953f9" RegularExpression="(casts|uses) Wormhole Formation">
-            <Actions>
-              <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="Wormhole" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
-                <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
-              </Action>
-              <Action OrderNumber="2" VariableName="Wormhole" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" ExecutionDelayExpression="30000">
-                <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
-              </Action>
-            </Actions>
-            <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
-          </Trigger>
         </Triggers>
       </Folder>
     </Folders>
     <Triggers>
-      <Trigger Enabled="true" Name="Added new combatant Steam Chakram" Id="61505b6d-235c-4f81-9c91-19a5a798dfcd" RegularExpression="Added new combatant Steam Chakram" PeriodRefire="Deny" RefirePeriodExpression="5000">
+      <Trigger Enabled="false" Name="Added new combatant Steam Chakram" Id="61505b6d-235c-4f81-9c91-19a5a798dfcd" RegularExpression="Added new combatant Steam Chakram" PeriodRefire="Deny" RefirePeriodExpression="5000">
         <Actions>
           <Action OrderNumber="1" UseTTSTextExpression="Chakram" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
             <Condition Enabled="false" Grouping="Or" />
