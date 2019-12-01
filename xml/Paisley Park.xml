@@ -1,37 +1,58 @@
 <?xml version="1.0"?>
 <TriggernometryExport Version="1">
-  <ExportedFolder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="c004158b-86a6-4114-a69a-5c386b70a87c" Name="Paisley Park" Enabled="true">
-    <Folders>
-      <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="true" EventFilterEnabled="false" Id="582f21eb-069c-4bdd-b397-9f0863e8b2aa" ZoneFilterRegularExpression="Middle\ La\ Noscea" Name="Test Triggers" Enabled="true">
-        <Folders />
-        <Triggers>
-          <Trigger Enabled="true" Source="Log" Name="Test (Summerford Farms) 1" Id="60482c54-5667-4039-869c-b3ddd7793193" RegularExpression="You poke the aetheryte." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0" EditAutofire="false">
-            <Actions>
-              <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="GenericJson" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Test Pattern 1&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:221.875046,&quot;Y&quot;:113.099991,&quot;Z&quot;:-251.944031,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:224.0288,&quot;Y&quot;:113.099991,&quot;Z&quot;:-253.719391,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:2,&quot;Active&quot;:false},&quot;D&quot;:{&quot;X&quot;:219.489365,&quot;Y&quot;:113.099991,&quot;Z&quot;:-250.276535,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:4,&quot;Active&quot;:false},&quot;Two&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:5,&quot;Active&quot;:false}}" KeypressType="SendKeys">
-                <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
-              </Action>
-            </Actions>
+  <ExportedFolder ZoneFilterEnabled="True" Id="14395bc6-a000-4938-890e-0ae57aefd3d9" ZoneFilterRegularExpression="The\ Epic\ Of\ Alexander\ \(Ultimate\)" Name="The Epic of Alexander (Ultimate)" Enabled="true">
+    <Folders />
+    <Triggers>
+      <Trigger Enabled="true" Name="Basic Markers" Id="161f8ecc-3464-45ee-a49c-2f3b8edc8c7d" RegularExpression="You slap Seiryu." Description="Good for Living Liquid, Limit Cut, and Brute Justice + Cruise Chaser">
+        <Actions>
+          <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;TEA1&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.015892,&quot;Y&quot;:9.536743E-07,&quot;Z&quot;:86.10199,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:113.875656,&quot;Y&quot;:0.0,&quot;Z&quot;:99.97623,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100.062408,&quot;Y&quot;:9.536743E-07,&quot;Z&quot;:113.764954,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:86.1755753,&quot;Y&quot;:0.0,&quot;Z&quot;:99.86184,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:90.17176,&quot;Y&quot;:9.536743E-07,&quot;Z&quot;:109.658905,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:90.2339,&quot;Y&quot;:9.536743E-07,&quot;Z&quot;:90.25795,&quot;ID&quot;:5,&quot;Active&quot;:true}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
             <Condition Enabled="false" Grouping="Or" />
             <Conditions />
-          </Trigger>
-          <Trigger Enabled="true" Source="Log" Name="Test (Summerford Farms) 2" Id="859eb564-5b4f-46b3-be88-c8b41e2695e3" RegularExpression="You clap for the aetheryte." DebugLevel="Inherit" PrevActions="Keep" PrevActionsRefire="Allow" Scheduling="FromFire" PeriodRefire="Allow" RefirePeriodExpression="0" EditAutofire="false">
-            <Actions>
-              <Action OrderNumber="1" AuraImageMode="Normal" TextAuraAlignment="MiddleCenter" TextAuraFontSize="8.25" TextAuraEffect="None" ActionType="GenericJson" ExecutionDelayExpression="0" DebugLevel="Inherit" SystemBeepFreqExpression="1000" SystemBeepLengthExpression="100" PlaySoundVolumeExpression="100" UseTTSVolumeExpression="100" UseTTSRateExpression="0" LaunchProcessWindowStyle="Normal" ExecScriptType="CSharp" MessageBoxIconType="None" VariableOp="Unset" ListVariableOp="Unset" ListVariableExpressionType="String" TriggerOp="FireTrigger" TriggerForce="" TriggerId="00000000-0000-0000-0000-000000000000" FolderOp="EnableFolder" FolderId="00000000-0000-0000-0000-000000000000" AuraOp="ActivateAura" TextAuraOp="ActivateAura" TextAuraFontName="Microsoft Sans Serif" TextAuraForeground="Black" TextAuraBackground="Transparent" TextAuraOutline="White" OBSControlType="StartStreaming" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Test Pattern 2&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:232.06929,&quot;Y&quot;:112.755379,&quot;Z&quot;:-262.142273,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:223.3542,&quot;Y&quot;:113.099991,&quot;Z&quot;:-251.98941,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:221.1385,&quot;Y&quot;:112.930016,&quot;Z&quot;:-263.646423,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:234.729477,&quot;Y&quot;:113.075073,&quot;Z&quot;:-249.344,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:235.694611,&quot;Y&quot;:112.915451,&quot;Z&quot;:-255.934418,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:220.209549,&quot;Y&quot;:113.099991,&quot;Z&quot;:-257.550323,&quot;ID&quot;:5,&quot;Active&quot;:true}}" KeypressType="SendKeys">
-                <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
-              </Action>
-            </Actions>
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="Inception Formation" Id="47481731-5706-45e2-ba61-3be6ac26913d" RegularExpression="Alexander Prime readies Inception.">
+        <Actions>
+          <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Inception Formation&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.185417,&quot;Y&quot;:-7.26166672E-06,&quot;Z&quot;:93.19548,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:100.065163,&quot;Y&quot;:-7.707029E-06,&quot;Z&quot;:80.90282,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:99.9448853,&quot;Y&quot;:-7.01032468E-06,&quot;Z&quot;:107.062317,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:99.95152,&quot;Y&quot;:-9.449766E-06,&quot;Z&quot;:119.015915,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:99.98756,&quot;Y&quot;:-2.864967E-06,&quot;Z&quot;:99.99271,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:5,&quot;Active&quot;:false}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
             <Condition Enabled="false" Grouping="Or" />
             <Conditions />
-          </Trigger>
-        </Triggers>
-      </Folder>
-      <Folder FFXIVJobFilterEnabled="false" FFXIVJobFilter="0" ZoneFilterEnabled="false" EventFilterEnabled="false" Id="14395bc6-a000-4938-890e-0ae57aefd3d9" Name="The Epic of Alexander (Ultimate)" Enabled="true">
-        <Folders />
-        <Triggers />
-      </Folder>
-    </Folders>
-    <Triggers />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="Temporal Stasis" Id="70957720-85c6-4640-865a-8f8ae8fd45e3" RegularExpression="Alexander Prime readies Temporal Stasis.">
+        <Actions>
+          <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Temporal Stasis&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:91.64969,&quot;Y&quot;:-9.40470454E-06,&quot;Z&quot;:97.02722,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:91.91087,&quot;Y&quot;:-1.0521102E-05,&quot;Z&quot;:102.669655,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:108.982246,&quot;Y&quot;:-3.7315026E-06,&quot;Z&quot;:103.002716,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:109.19561,&quot;Y&quot;:-3.36776384E-06,&quot;Z&quot;:96.50184,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:116.4702,&quot;Y&quot;:-1.05585559E-06,&quot;Z&quot;:100.557144,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:80.8441238,&quot;Y&quot;:-2.37377171E-05,&quot;Z&quot;:100.14196,&quot;ID&quot;:5,&quot;Active&quot;:true}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="Wormhole NE puddle TPS" Id="925ecd55-51e9-4ec4-a73b-9cf2045ccd1a" RegularExpression="You make a poking gesture." Description="Puddles NE/SW">
+        <Actions>
+          <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Wormhole NE Puddle TPS&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:118.423271,&quot;Y&quot;:-8.648414E-05,&quot;Z&quot;:106.528992,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:119.492569,&quot;Y&quot;:-9.48874458E-07,&quot;Z&quot;:100.002213,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:81.6362839,&quot;Y&quot;:-1.553855E-05,&quot;Z&quot;:93.46961,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:80.48484,&quot;Y&quot;:-1.24103917E-05,&quot;Z&quot;:99.99945,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:4,&quot;Active&quot;:false},&quot;Two&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:5,&quot;Active&quot;:false}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+      <Trigger Enabled="true" Name="Wormhole NW puddle TPS" Id="44b068e4-f06d-4fb7-ac31-1c838c506819" RegularExpression="You wave.">
+        <Actions>
+          <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Wormhole NW Puddle TPS&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:118.233772,&quot;Y&quot;:-1.08701215E-06,&quot;Z&quot;:93.44149,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:119.492569,&quot;Y&quot;:-9.48874458E-07,&quot;Z&quot;:100.002213,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:81.45877,&quot;Y&quot;:-1.4266634E-05,&quot;Z&quot;:106.323029,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:80.48484,&quot;Y&quot;:-1.24103917E-05,&quot;Z&quot;:99.99945,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:4,&quot;Active&quot;:false},&quot;Two&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:5,&quot;Active&quot;:false}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Action>
+        </Actions>
+        <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
+      </Trigger>
+    </Triggers>
   </ExportedFolder>
 </TriggernometryExport>
