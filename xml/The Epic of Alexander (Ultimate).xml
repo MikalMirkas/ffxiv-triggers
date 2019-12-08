@@ -602,6 +602,61 @@
           </Trigger>
         </Triggers>
       </Folder>
+      <Folder Id="73b642d7-ad23-438e-b9f5-9adae6d0693e" Name="Alexander Transition (TPS)" Enabled="false">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="true" Name="DPS House Arrest" Id="580c5d3e-b0ea-4ea0-a33a-ed5d28a131d5" RegularExpression="You suffer the effect of House Arrest">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="BJ South" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="Tank/Healer Restraining Order" Id="e1c2d70d-ea47-4ecb-9bd3-26c1ca36c94d" RegularExpression="You suffer the effect of Restraining Order">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="CC Outside" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="DPS Restraining Order" Id="0190a741-8e95-4e40-972b-9d3938e95fa6" RegularExpression="You suffer the effect of Restraining Order">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="BJ Outside" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="Aggravated Assault" Id="edda154e-958b-49dd-95e3-02689f5ee1ad" RegularExpression="You suffer the effect of Aggravated Assault">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="BJ Outside" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="Tank/Healer House Arrest" Id="32576cf5-95ff-4d5c-8f62-155ab320abcd" RegularExpression="You suffer the effect of House Arrest">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="BJ North" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+        </Triggers>
+      </Folder>
       <Folder Id="d06ffab2-8181-490c-9557-1674a3941d3b" Name="Wormhole - TPS" Enabled="true">
         <Folders />
         <Triggers>
