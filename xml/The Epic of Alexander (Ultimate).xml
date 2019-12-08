@@ -565,7 +565,7 @@
         </Folders>
         <Triggers />
       </Folder>
-      <Folder Id="73b642d7-ad23-438e-b9f5-9adae6d0693e" Name="Alexander Transition" Enabled="true">
+      <Folder Id="73b642d7-ad23-438e-b9f5-9adae6d0693e" Name="Alexander Transition" Enabled="false">
         <Folders />
         <Triggers>
           <Trigger Enabled="true" Name="House Arrest" Id="580c5d3e-b0ea-4ea0-a33a-ed5d28a131d5" RegularExpression="You suffer the effect of House Arrest">
@@ -602,7 +602,7 @@
           </Trigger>
         </Triggers>
       </Folder>
-      <Folder Id="73b642d7-ad23-438e-b9f5-9adae6d0693e" Name="Alexander Transition (TPS)" Enabled="false">
+      <Folder Id="73b642d7-ad23-438e-b9f5-9adae6d0693e" Name="Alexander Transition (TPS)" Enabled="true">
         <Folders />
         <Triggers>
           <Trigger Enabled="true" Name="DPS House Arrest" Id="580c5d3e-b0ea-4ea0-a33a-ed5d28a131d5" RegularExpression="You suffer the effect of House Arrest">
