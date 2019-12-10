@@ -775,6 +775,89 @@
           </Trigger>
         </Triggers>
       </Folder>
+      <Folder Id="0de17ad2-1ee4-45aa-b39e-a4953fecf7e4" Name="Inception Formation (SuperShield)" Enabled="true">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="true" Name="DPS Shared Sentence" Id="4688b8c4-d8a8-463c-aa4d-d9a247566289" RegularExpression="You suffer the effect of Shared Sentence.">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Right Alex with blue tank" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${evar:inceptiontime}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+            </Condition>
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="Trigger Listener" Id="ac1232f1-802c-4db5-9bdd-af5240eeeaec" RegularExpression="Alexander Prime readies Inception." Description="Checks if Inception is cast, sets $inceptiontime to 1, sets it back to 0 after 30000ms (tentative time)">
+            <Actions>
+              <Action OrderNumber="1" ListVariableOp="Set" ListVariableExpressionType="Numeric" VariableOp="SetNumeric" VariableName="inceptiontime" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="2" VariableName="inceptiontime" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" ExecutionDelayExpression="60000">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="DPS Restraining Order" Id="26c87508-4ffb-489b-a27d-cc201e2f9859" RegularExpression="You suffer the effect of Restraining Order.">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Left Alex" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="2" UseTTSTextExpression="Bait CC left side" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="2000">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${evar:inceptiontime}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+            </Condition>
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="Tank Restraining Order" Id="c49563b5-db93-47e8-9a83-acd59fd8fcdd" RegularExpression="You suffer the effect of Restraining Order.">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Right Alex" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+              <Action OrderNumber="2" UseTTSTextExpression="Bait closest to CC north side" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="2000">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${evar:inceptiontime}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+            </Condition>
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="Healer BJ Super Jump" Id="246e9387-b1f5-4b7a-8827-975c72131f40" RegularExpression="The Brute Justice readies Super Jump.">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Oppisite BJ bait jump" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="Healer CC bait" Id="6cd5d796-b53a-413a-b940-7709e793036c" RegularExpression="recovers from the effect of Shared Sentence.">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="Bait CC right side" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+        </Triggers>
+      </Folder>
     </Folders>
     <Triggers>
       <Trigger Enabled="false" Name="Added new combatant Steam Chakram" Id="61505b6d-235c-4f81-9c91-19a5a798dfcd" RegularExpression="Added new combatant Steam Chakram" PeriodRefire="Deny" RefirePeriodExpression="5000">
