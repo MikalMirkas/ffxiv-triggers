@@ -974,7 +974,9 @@
                 <Conditions />
               </Action>
             </Actions>
-            <Condition Enabled="false" Grouping="Or" />
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${evar:inceptiontime}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+            </Condition>
           </Trigger>
           <Trigger Enabled="false" Name="Healer CC bait" Id="6cd5d796-b53a-413a-b940-7709e793036c" RegularExpression="recovers from the effect of Shared Sentence.">
             <Actions>
@@ -995,7 +997,9 @@
                 <Conditions />
               </Action>
             </Actions>
-            <Condition Enabled="false" Grouping="Or" />
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${evar:inceptiontime}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+            </Condition>
           </Trigger>
           <Trigger Enabled="true" Name="DPS Group Stack" Id="e4f09ad1-ff3b-46e2-8e7b-e4b8040349a3" RegularExpression="(suffers|suffer) the effect of Aggravated Assault.">
             <Actions>
