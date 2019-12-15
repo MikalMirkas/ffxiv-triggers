@@ -69,6 +69,16 @@
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
           </Trigger>
+          <Trigger Enabled="true" Name="Perfect Alex General" Id="a3d6468e-7f0a-436f-a87b-674fa5857664" RegularExpression="00:0044:Alexander Prime:I am the Creator... I will rebuild, remake, reform myself into the ultimate state of perfection...!">
+            <Actions>
+              <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Perfect Alex General&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.02494,&quot;Y&quot;:-6.936253E-06,&quot;Z&quot;:84.68578,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:114.076347,&quot;Y&quot;:-3.759836E-06,&quot;Z&quot;:100.024658,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100.00573,&quot;Y&quot;:-9.200007E-06,&quot;Z&quot;:113.844528,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:85.58981,&quot;Y&quot;:-3.257173E-05,&quot;Z&quot;:99.47241,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:4,&quot;Active&quot;:false},&quot;Two&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:5,&quot;Active&quot;:false}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
         </Triggers>
       </Folder>
     </Folders>
