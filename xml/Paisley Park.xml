@@ -9,17 +9,21 @@
             <Actions>
               <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Test Pattern 1&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:221.875046,&quot;Y&quot;:113.099991,&quot;Z&quot;:-251.944031,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:224.0288,&quot;Y&quot;:113.099991,&quot;Z&quot;:-253.719391,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:2,&quot;Active&quot;:false},&quot;D&quot;:{&quot;X&quot;:219.489365,&quot;Y&quot;:113.099991,&quot;Z&quot;:-250.276535,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:4,&quot;Active&quot;:false},&quot;Two&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:5,&quot;Active&quot;:false}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
           <Trigger Enabled="true" Name="Test (Summerford Farms) 2" Id="859eb564-5b4f-46b3-be88-c8b41e2695e3" RegularExpression="You clap for the aetheryte.">
             <Actions>
               <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Test Pattern 2&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:232.06929,&quot;Y&quot;:112.755379,&quot;Z&quot;:-262.142273,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:223.3542,&quot;Y&quot;:113.099991,&quot;Z&quot;:-251.98941,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:221.1385,&quot;Y&quot;:112.930016,&quot;Z&quot;:-263.646423,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:234.729477,&quot;Y&quot;:113.075073,&quot;Z&quot;:-249.344,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:235.694611,&quot;Y&quot;:112.915451,&quot;Z&quot;:-255.934418,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:220.209549,&quot;Y&quot;:113.099991,&quot;Z&quot;:-257.550323,&quot;ID&quot;:5,&quot;Active&quot;:true}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
         </Triggers>
       </Folder>
@@ -217,9 +221,11 @@
                 <Actions>
                   <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Perfect Alex General&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.02494,&quot;Y&quot;:-6.936253E-06,&quot;Z&quot;:84.68578,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:114.076347,&quot;Y&quot;:-3.759836E-06,&quot;Z&quot;:100.024658,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100.00573,&quot;Y&quot;:-9.200007E-06,&quot;Z&quot;:113.844528,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:85.58981,&quot;Y&quot;:-3.257173E-05,&quot;Z&quot;:99.47241,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:4,&quot;Active&quot;:false},&quot;Two&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:5,&quot;Active&quot;:false}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
                     <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -229,41 +235,41 @@
             <Actions>
               <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;TEA1&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.015892,&quot;Y&quot;:9.536743E-07,&quot;Z&quot;:86.10199,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:114.966522,&quot;Y&quot;:9.536743E-07,&quot;Z&quot;:89.70676,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:100.062408,&quot;Y&quot;:9.536743E-07,&quot;Z&quot;:113.764954,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:86.1755753,&quot;Y&quot;:0.0,&quot;Z&quot;:99.86184,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:90.17176,&quot;Y&quot;:9.536743E-07,&quot;Z&quot;:109.658905,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:90.22733,&quot;Y&quot;:9.536743E-07,&quot;Z&quot;:90.10913,&quot;ID&quot;:5,&quot;Active&quot;:true}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
           <Trigger Enabled="true" Name="Inception Formation" Id="47481731-5706-45e2-ba61-3be6ac26913d" RegularExpression="Alexander Prime readies Inception.">
             <Actions>
               <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Inception Formation&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:100.185417,&quot;Y&quot;:-7.26166672E-06,&quot;Z&quot;:93.19548,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:100.065163,&quot;Y&quot;:-7.707029E-06,&quot;Z&quot;:80.90282,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:99.9448853,&quot;Y&quot;:-7.01032468E-06,&quot;Z&quot;:107.062317,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:99.95152,&quot;Y&quot;:-9.449766E-06,&quot;Z&quot;:119.015915,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:99.98756,&quot;Y&quot;:-2.864967E-06,&quot;Z&quot;:99.99271,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:5,&quot;Active&quot;:false}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
           <Trigger Enabled="true" Name="Temporal Stasis" Id="70957720-85c6-4640-865a-8f8ae8fd45e3" RegularExpression="Alexander Prime readies Temporal Stasis.">
             <Actions>
               <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Temporal Stasis&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:93.65809,&quot;Y&quot;:-9.536743E-07,&quot;Z&quot;:98.68108,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:93.63553,&quot;Y&quot;:-9.536743E-07,&quot;Z&quot;:101.24205,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:106.64183,&quot;Y&quot;:9.536743E-07,&quot;Z&quot;:101.61335,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:106.405815,&quot;Y&quot;:9.536743E-07,&quot;Z&quot;:98.6385345,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:118.559166,&quot;Y&quot;:-1.90734863E-06,&quot;Z&quot;:100.196953,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:81.04335,&quot;Y&quot;:-9.536743E-07,&quot;Z&quot;:100.306587,&quot;ID&quot;:5,&quot;Active&quot;:true}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
-          <Trigger Enabled="true" Name="Wormhole NE puddle TPS" Id="925ecd55-51e9-4ec4-a73b-9cf2045ccd1a" RegularExpression="You make a poking gesture." Description="Puddles NE/SW">
+          <Trigger Enabled="true" Name="Wormhole" Id="925ecd55-51e9-4ec4-a73b-9cf2045ccd1a" RegularExpression="Alexander Prime readies Wormhole Formation." Description="Puddles NE/SW">
             <Actions>
-              <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Wormhole NE Puddle TPS&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:118.423271,&quot;Y&quot;:-8.648414E-05,&quot;Z&quot;:106.528992,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:119.492569,&quot;Y&quot;:-9.48874458E-07,&quot;Z&quot;:100.002213,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:81.6362839,&quot;Y&quot;:-1.553855E-05,&quot;Z&quot;:93.46961,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:80.48484,&quot;Y&quot;:-1.24103917E-05,&quot;Z&quot;:99.99945,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:100.019379,&quot;Y&quot;:-6.66768E-06,&quot;Z&quot;:99.96862,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:5,&quot;Active&quot;:false}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
+              <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Wormhole&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:95.99694,&quot;Y&quot;:0.0,&quot;Z&quot;:99.98354,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:119.492569,&quot;Y&quot;:-9.48874458E-07,&quot;Z&quot;:100.002213,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:104.017471,&quot;Y&quot;:-9.536743E-07,&quot;Z&quot;:100.140495,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:80.48484,&quot;Y&quot;:-1.24103917E-05,&quot;Z&quot;:99.99945,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:100.019379,&quot;Y&quot;:-6.66768E-06,&quot;Z&quot;:99.96862,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:5,&quot;Active&quot;:false}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
-          </Trigger>
-          <Trigger Enabled="true" Name="Wormhole NW puddle TPS" Id="44b068e4-f06d-4fb7-ac31-1c838c506819" RegularExpression="You wave.">
-            <Actions>
-              <Action OrderNumber="1" JsonEndpointExpression="http://localhost:1337/place" JsonPayloadExpression="{&quot;Name&quot;:&quot;Wormhole NW Puddle TPS&quot;,&quot;MapID&quot;:0,&quot;A&quot;:{&quot;X&quot;:118.233772,&quot;Y&quot;:-1.08701215E-06,&quot;Z&quot;:93.44149,&quot;ID&quot;:0,&quot;Active&quot;:true},&quot;B&quot;:{&quot;X&quot;:119.492569,&quot;Y&quot;:-9.48874458E-07,&quot;Z&quot;:100.002213,&quot;ID&quot;:1,&quot;Active&quot;:true},&quot;C&quot;:{&quot;X&quot;:81.45877,&quot;Y&quot;:-1.4266634E-05,&quot;Z&quot;:106.323029,&quot;ID&quot;:2,&quot;Active&quot;:true},&quot;D&quot;:{&quot;X&quot;:80.48484,&quot;Y&quot;:-1.24103917E-05,&quot;Z&quot;:99.99945,&quot;ID&quot;:3,&quot;Active&quot;:true},&quot;One&quot;:{&quot;X&quot;:99.9983,&quot;Y&quot;:-6.67751738E-06,&quot;Z&quot;:100.027077,&quot;ID&quot;:4,&quot;Active&quot;:true},&quot;Two&quot;:{&quot;X&quot;:0.0,&quot;Y&quot;:0.0,&quot;Z&quot;:0.0,&quot;ID&quot;:5,&quot;Active&quot;:false}}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="GenericJson">
-                <Condition Enabled="false" Grouping="Or" />
-              </Action>
-            </Actions>
-            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
         </Triggers>
       </Folder>
