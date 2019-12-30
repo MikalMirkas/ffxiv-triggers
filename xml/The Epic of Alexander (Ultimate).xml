@@ -718,7 +718,7 @@
                 </Condition>
                 <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Sequential="True" Name="Associate cloneID with mechanic" Id="191d9379-79b6-4947-9fba-4480be919e9c" RegularExpression="00:0038:repeat clone call" PeriodRefire="Deny" RefirePeriodExpression="2000">
+              <Trigger Enabled="true" Sequential="True" Name="Associate cloneID with mechanic" Id="191d9379-79b6-4947-9fba-4480be919e9c" RegularExpression="oh shit I missed it" PeriodRefire="Deny" RefirePeriodExpression="2000">
                 <Actions>
                   <Action OrderNumber="1" ListVariableOp="SortAlphaAsc" ListVariableName="clonelist" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable" Asynchronous="False">
                     <Condition Enabled="false" Grouping="Or" />
