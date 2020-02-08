@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="fad972a2-0377-4d74-9937-03d9f50e68d2" Name="Eden2" Enabled="true">
+    <Folders>
+      <Folder Id="d2d539f5-2b31-4287-8acf-458e97b22a13" Name="E5S" Enabled="true">
+        <Folders />
+        <Triggers />
+      </Folder>
+      <Folder Id="a8e29b19-029d-4acf-806d-26aa850272b2" Name="E6S" Enabled="true">
+        <Folders />
+        <Triggers />
+      </Folder>
+      <Folder Id="40c40612-c815-41c3-8a63-0acd6a491a14" Name="E7S" Enabled="true">
+        <Folders />
+        <Triggers />
+      </Folder>
+      <Folder Id="4337a511-9829-4db5-a3c1-46ea62f78869" Name="E8S" Enabled="true">
+        <Folders />
+        <Triggers />
+      </Folder>
+    </Folders>
+    <Triggers />
+  </ExportedFolder>
+</TriggernometryExport>
