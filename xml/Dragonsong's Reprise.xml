@@ -2,7 +2,7 @@
 <TriggernometryExport Version="1">
   <ExportedFolder Id="d9922a12-a499-44d5-89a2-2897d9f42583" Name="Dragonsong's Reprise" Enabled="true">
     <Folders>
-      <Folder Id="e3669084-fa13-4e5e-8536-541255c77cb8" Name="Phase 1" Enabled="true">
+      <Folder Id="e3669084-fa13-4e5e-8536-541255c77cb8" Name="Phase 1 (Knights 1)" Enabled="true">
         <Folders />
         <Triggers>
           <Trigger Enabled="true" Name="Full Dimension" Id="428ad1b1-1b40-4945-8676-c737cef6d6a5" RegularExpression="readies Full Dimension">
@@ -24,6 +24,14 @@
             <Conditions />
           </Trigger>
         </Triggers>
+      </Folder>
+      <Folder Id="24928d34-21e3-44ae-861f-be42dfdf7afb" Name="Phase 2 (Thordan 1)" Enabled="true">
+        <Folders />
+        <Triggers />
+      </Folder>
+      <Folder Id="7b9bd870-1e9e-4440-ab32-441175d610ee" Name="Phase 3 (Nidstinien)" Enabled="true">
+        <Folders />
+        <Triggers />
       </Folder>
     </Folders>
     <Triggers />
