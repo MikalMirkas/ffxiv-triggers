@@ -110,13 +110,31 @@
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
           </Trigger>
         </Triggers>
       </Folder>
       <Folder Id="7b9bd870-1e9e-4440-ab32-441175d610ee" Name="Phase 3 (Nidstinien)" Enabled="true">
         <Folders />
-        <Triggers />
+        <Triggers>
+          <Trigger Enabled="true" Name="Lash and Gnash" Id="571ba176-6709-4f1b-b755-841aae62c538" RegularExpression="Nidhogg readies Lash and Gnash.">
+            <Actions>
+              <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="In then Out" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="Gnash and Lash" Id="1979fd4b-6297-40bd-b952-d2db57caa2b3" RegularExpression="Nidhogg readies Gnash and Lash.">
+            <Actions>
+              <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="out then in" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+        </Triggers>
       </Folder>
     </Folders>
     <Triggers />
