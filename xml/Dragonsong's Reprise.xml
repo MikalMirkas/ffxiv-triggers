@@ -136,7 +136,7 @@
           </Trigger>
           <Trigger Enabled="true" Name="Elusive Jump Target" Id="bed93713-5c66-466d-aaa1-5330d93877ad" RegularExpression="You suffer the effect of Elusive Jump Target">
             <Actions>
-              <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="East" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+              <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="East B" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
             </Actions>
@@ -145,7 +145,7 @@
           </Trigger>
           <Trigger Enabled="true" Name="Shatterdive Jump Target" Id="4a6307b9-65f1-4b42-a73a-eeedaf595d16" RegularExpression="You suffer the effect of Spineshatter Dive Target">
             <Actions>
-              <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="West" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+              <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="West D" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
             </Actions>
