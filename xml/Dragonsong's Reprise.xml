@@ -115,39 +115,37 @@
       </Folder>
       <Folder Id="7b9bd870-1e9e-4440-ab32-441175d610ee" Name="Phase 3 (Nidstinien)" Enabled="true">
         <Folders>
-          <Folder Id="a1dd4915-0f3c-4769-8e5e-f838c5433be5" Name="Nidhogg Brain Off by Aava" Enabled="true">
+          <Folder Id="5c858613-c315-4d08-86b7-4a3b35b971b1" Name="Nidhogg Brain Off by Aava" Enabled="false">
             <Folders>
-              <Folder Id="4a4381f7-536d-4014-b324-c1de073d8fb0" Name="0 Gnash / Lash (Delayed)" Enabled="true">
+              <Folder Id="5046f3c3-0cf5-4f1e-9cc9-6376b92a7331" Name="0 Gnash / Lash (Delayed)" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="Gnash and Lash" Id="cd99448a-c9dc-4d5d-b34c-b079662be08a" RegularExpression="Nidhogg readies Gnash and Lash.">
+                  <Trigger Enabled="true" Name="Gnash and Lash" Id="1979fd4b-6297-40bd-b952-d2db57caa2b3" RegularExpression="Nidhogg readies Gnash and Lash.">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="out then in" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="3500">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="Lash and Gnash" Id="758a3ee9-c639-4903-b813-ce00a28d9489" RegularExpression="Nidhogg readies Lash and Gnash.">
+                  <Trigger Enabled="true" Name="Lash and Gnash" Id="571ba176-6709-4f1b-b755-841aae62c538" RegularExpression="Nidhogg readies Lash and Gnash.">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="In then Out" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="3500">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="84a66ca3-7b3d-4ced-9491-476f1e953959" Name="1 Flags" Enabled="true">
+              <Folder Id="a66c0c22-838f-4503-ac4b-cd09aa10960f" Name="1 Flags" Enabled="true">
                 <Folders>
-                  <Folder Id="d6f10cda-3ecf-4f84-b34b-5b60006189e5" Name="Dive" Enabled="true">
+                  <Folder Id="42f0bf21-0f17-4f5e-b09d-a71051d2c003" Name="Dive" Enabled="true">
                     <Folders>
-                      <Folder Id="c21a6d6c-b984-4d12-a21a-ed8f337ebac9" Name="Ally" Enabled="true">
+                      <Folder Id="98c636a3-faeb-477d-8548-4a079b6c8511" Name="Ally" Enabled="true">
                         <Folders />
                         <Triggers>
-                          <Trigger Enabled="true" Name="Number Arrows Flag" Id="40f74393-ce72-4847-a9c6-06204e1b5d3b" RegularExpression="(?&lt;name&gt;[a-zA-Z'\- ]+) suffers the effect of (Spineshatter Dive|Elusive Jump) Target">
+                          <Trigger Enabled="true" Name="Number Arrows Flag" Id="30c65f22-768f-4ae0-81a6-300821360d98" RegularExpression="(?&lt;name&gt;[a-zA-Z'\- ]+) suffers the effect of (Spineshatter Dive|Elusive Jump) Target">
                             <Actions>
                               <Action OrderNumber="1" OBSEndPoint="" VariableOp="SetNumeric" VariableName="dsr_OneArrows" VariableExpression="1" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                                 <Condition Enabled="true" Grouping="And">
@@ -161,78 +159,71 @@
                               </Action>
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
-                            <Conditions />
                           </Trigger>
                         </Triggers>
                       </Folder>
                     </Folders>
                     <Triggers>
-                      <Trigger Enabled="true" Name="High Jump" Id="18d1732c-a805-4805-872e-37323801c618" RegularExpression="You suffer the effect of High Jump Target">
+                      <Trigger Enabled="true" Name="High Jump" Id="edc7f5e7-2d0d-4eea-9a8c-5626ddbb6c46" RegularExpression="You suffer the effect of High Jump Target">
                         <Actions>
                           <Action OrderNumber="1" OBSEndPoint="" VariableOp="SetNumeric" VariableName="dsr_Dive" VariableExpression="1" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
                         </Actions>
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Trigger>
-                      <Trigger Enabled="true" Name="Elusive Jump Target" Id="8223ef5c-7d5c-492a-88dd-198df3e3178a" RegularExpression="You suffer the effect of Elusive Jump Target">
+                      <Trigger Enabled="true" Name="Elusive Jump Target" Id="671f8c7e-414e-422c-af07-15030410a274" RegularExpression="You suffer the effect of Elusive Jump Target">
                         <Actions>
                           <Action OrderNumber="1" OBSEndPoint="" VariableOp="SetNumeric" VariableName="dsr_Dive" VariableExpression="3" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
                         </Actions>
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Trigger>
-                      <Trigger Enabled="true" Name="Spineshatter Target" Id="9c8270ac-f4e0-4814-beca-a45ae3ef1cec" RegularExpression="You suffer the effect of Spineshatter Dive Target">
+                      <Trigger Enabled="true" Name="Spineshatter Target" Id="569b01fd-ea70-4612-9d66-b87ab7a2814b" RegularExpression="You suffer the effect of Spineshatter Dive Target">
                         <Actions>
                           <Action OrderNumber="1" OBSEndPoint="" VariableOp="SetNumeric" VariableName="dsr_Dive" VariableExpression="2" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
                         </Actions>
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Trigger>
                     </Triggers>
                   </Folder>
-                  <Folder Id="e8884408-c947-479d-9d6e-93a4a52b96ef" Name="Line" Enabled="true">
+                  <Folder Id="1085467d-76ad-40f8-ac91-4f3160455aaa" Name="Line" Enabled="true">
                     <Folders>
-                      <Folder Id="0bf66290-1557-40fa-9996-1d4103e8dba3" Name="Ally" Enabled="true">
+                      <Folder Id="8a05986e-4091-4d27-9d9c-41265451e82c" Name="Ally" Enabled="true">
                         <Folders />
                         <Triggers>
-                          <Trigger Enabled="true" Name="Third Allies to List" Id="421b9cc8-7a74-4eb7-ad7f-7d3d0861c012" RegularExpression="(?&lt;name&gt;[a-zA-Z'\- ]+) suffers the effect of Third in Line">
+                          <Trigger Enabled="true" Name="Third Allies to List" Id="d276e7af-f30d-4540-bef2-c6c26212f332" RegularExpression="(?&lt;name&gt;[a-zA-Z'\- ]+) suffers the effect of Third in Line">
                             <Actions>
                               <Action OrderNumber="1" ListVariableOp="Insert" ListVariableName="dsr_Threes" ListVariableExpression="${name}" ListVariableIndex="0" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
                                 <Condition Enabled="false" Grouping="Or" />
                               </Action>
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
-                            <Conditions />
                           </Trigger>
-                          <Trigger Enabled="true" Name="Second Allies to List" Id="157caad4-3ae0-4d1c-a969-21c4b20440f0" RegularExpression="(?&lt;name&gt;[a-zA-Z'\- ]+) suffers the effect of Second in Line">
+                          <Trigger Enabled="true" Name="Second Allies to List" Id="98b35ff3-2bce-4b32-8a21-0a49af953196" RegularExpression="(?&lt;name&gt;[a-zA-Z'\- ]+) suffers the effect of Second in Line">
                             <Actions>
                               <Action OrderNumber="1" ListVariableOp="Push" ListVariableName="dsr_Twos" ListVariableExpression="${name}" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
                                 <Condition Enabled="false" Grouping="Or" />
                               </Action>
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
-                            <Conditions />
                           </Trigger>
-                          <Trigger Enabled="true" Name="First Allies to List" Id="e1827a64-87c7-4da3-8636-33c23fe16dbd" RegularExpression="(?&lt;name&gt;[a-zA-Z'\- ]+) suffers the effect of First in Line">
+                          <Trigger Enabled="true" Name="First Allies to List" Id="dcc6842f-7bc5-4385-add9-88d96b571787" RegularExpression="(?&lt;name&gt;[a-zA-Z'\- ]+) suffers the effect of First in Line">
                             <Actions>
                               <Action OrderNumber="1" ListVariableOp="Insert" ListVariableName="dsr_Ones" ListVariableExpression="${name}" ListVariableIndex="0" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
                                 <Condition Enabled="false" Grouping="Or" />
                               </Action>
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
-                            <Conditions />
                           </Trigger>
                         </Triggers>
                       </Folder>
                     </Folders>
                     <Triggers>
-                      <Trigger Enabled="true" Name="Second In Line Flag" Id="bcfb2524-38cb-4e91-8d67-d837ead04d95" RegularExpression="You suffer the effect of Second in Line">
+                      <Trigger Enabled="true" Name="Second In Line Flag" Id="6ba85aff-533f-4c59-9267-b0bcc37bf909" RegularExpression="You suffer the effect of Second in Line">
                         <Actions>
                           <Action OrderNumber="1" OBSEndPoint="" VariableOp="SetNumeric" VariableName="dsr_Line" VariableExpression="2" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
@@ -242,9 +233,8 @@
                           </Action>
                         </Actions>
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Trigger>
-                      <Trigger Enabled="true" Name="First In Line Flag" Id="a5dc487e-5e2d-46ff-b4b2-019656b5e3cd" RegularExpression="You suffer the effect of First in Line">
+                      <Trigger Enabled="true" Name="First In Line Flag" Id="fed4b49b-e8ed-4332-ba25-8696eee730dc" RegularExpression="You suffer the effect of First in Line">
                         <Actions>
                           <Action OrderNumber="1" OBSEndPoint="" VariableOp="SetNumeric" VariableName="dsr_Line" VariableExpression="1" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
@@ -254,9 +244,8 @@
                           </Action>
                         </Actions>
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Trigger>
-                      <Trigger Enabled="true" Name="Third In Line Flag" Id="b3784f49-c466-4d38-9662-0fd853714a79" RegularExpression="You suffer the effect of Third in Line">
+                      <Trigger Enabled="true" Name="Third In Line Flag" Id="7d0c1de8-9941-4181-8027-741193acf443" RegularExpression="You suffer the effect of Third in Line">
                         <Actions>
                           <Action OrderNumber="1" OBSEndPoint="" VariableOp="SetNumeric" VariableName="dsr_Line" VariableExpression="3" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
@@ -266,17 +255,16 @@
                           </Action>
                         </Actions>
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Trigger>
                     </Triggers>
                   </Folder>
                 </Folders>
                 <Triggers />
               </Folder>
-              <Folder Id="64dc126c-f67a-45c1-b829-dd9a97577425" Name="2 Callers" Enabled="true">
+              <Folder Id="1cfc9a19-6294-4aa3-86fe-5b435e5e7037" Name="2 Callers" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="0 Sort Lists and Cleanup" Id="c17611fc-2131-4e15-8947-11577565e73f" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="0 Sort Lists and Cleanup" Id="11a6e0f9-24d9-4553-929a-5fe5b93eb28d" RegularExpression="Nidhogg uses Dive from Grace">
                     <Actions>
                       <Action OrderNumber="1" ListVariableOp="SortAlphaAsc" ListVariableName="dsr_Ones" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -295,9 +283,8 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="true" Grouping="And" />
-                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="1 First Arrow Caller" Id="d6425def-b5e2-4a43-9a42-e6702772f786" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="1 First Arrow Caller" Id="97d5f0ad-743a-4d64-838a-7227fc2e2f8e" RegularExpression="Nidhogg uses Dive from Grace">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="West D West D Place Tower Face Correctly" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="100">
                         <Condition Enabled="true" Grouping="And">
@@ -327,9 +314,8 @@
                         <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                       </ConditionGroup>
                     </Condition>
-                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="1 First Flex Caller" Id="8e12badc-9e93-4600-9293-bf37676586ee" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="1 First Flex Caller" Id="58775c98-ecf3-414f-b3b9-b897a9c3a19f" RegularExpression="Nidhogg uses Dive from Grace">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="West D West D Place Tower" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="100">
                         <Condition Enabled="true" Grouping="Or">
@@ -361,9 +347,8 @@
                       </ConditionGroup>
                       <ConditionSingle Enabled="true" ExpressionL="${var:dsr_OneArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringNotEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="1 First North Caller" Id="86a3151c-79d5-4886-ae81-4109964dda4b" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="1 First North Caller" Id="7815ec1f-f6bc-485a-8e3b-db38e8f08d9f" RegularExpression="Nidhogg uses Dive from Grace">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="North A North A Place Tower" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="100">
                         <Condition Enabled="true" Grouping="Or">
@@ -382,9 +367,8 @@
                       <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
                       <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="2 Second Caller" Id="0cba3008-913b-4e2a-94e3-97c3e4b61342" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="2 Second Caller" Id="328dc89a-e668-4613-9c48-8e7db697af49" RegularExpression="Nidhogg uses Dive from Grace">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="West D West D" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="100">
                         <Condition Enabled="true" Grouping="Or">
@@ -436,9 +420,8 @@
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="3 Third Arrow Caller" Id="b06808ca-042d-4f76-960c-b8764470745a" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="3 Third Arrow Caller" Id="b213ebad-651c-461e-9b33-29bb19239244" RegularExpression="Nidhogg uses Dive from Grace">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="West D West D" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="100">
                         <Condition Enabled="true" Grouping="And">
@@ -464,9 +447,8 @@
                         <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                       </ConditionGroup>
                     </Condition>
-                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="3 Third High Caller" Id="f6296900-586e-4e3a-913a-c0d5f3a45f45" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="3 Third High Caller" Id="3a04dbdb-28f6-42e0-9522-34db45ca36c1" RegularExpression="Nidhogg uses Dive from Grace">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="North A North A" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="100">
                         <Condition Enabled="true" Grouping="And">
@@ -502,25 +484,42 @@
                       <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                       <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
-                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
             </Folders>
             <Triggers>
-              <Trigger Enabled="false" Name="Geirskogul Snapshot" Id="f18e2646-5a8a-4440-9c1c-aa6cb519a59b" RegularExpression="Nidhogg readies Geirskogul" PeriodRefire="Deny" RefirePeriodExpression="100">
+              <Trigger Enabled="false" Name="Geirskogul Snapshot" Id="85504a77-7ba2-46e3-b68e-e9b1b57c3290" RegularExpression="Nidhogg readies Geirskogul" PeriodRefire="Deny" RefirePeriodExpression="100">
                 <Actions>
                   <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="Snap" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
         </Folders>
-        <Triggers />
+        <Triggers>
+          <Trigger Enabled="true" Name="Elusive Jump Target" Id="b401af7d-956f-4247-bc19-1055c3f19311" RegularExpression="You suffer the effect of Elusive Jump Target">
+            <Actions>
+              <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="East B East B" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="Spineshatter" Id="34a25cdb-0626-447a-ac42-f48dcb8ff7e6" RegularExpression="You suffer the effect of Spineshatter Dive Target">
+            <Actions>
+              <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="West D West D" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+        </Triggers>
       </Folder>
     </Folders>
     <Triggers />
