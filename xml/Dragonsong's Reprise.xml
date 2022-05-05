@@ -115,7 +115,7 @@
       </Folder>
       <Folder Id="7b9bd870-1e9e-4440-ab32-441175d610ee" Name="Phase 3 (Nidstinien)" Enabled="true">
         <Folders>
-          <Folder Id="5c858613-c315-4d08-86b7-4a3b35b971b1" Name="Nidhogg Brain Off by Aava" Enabled="false">
+          <Folder Id="5c858613-c315-4d08-86b7-4a3b35b971b1" Name="Nidhogg Brain Off by Aava" Enabled="true">
             <Folders>
               <Folder Id="5046f3c3-0cf5-4f1e-9cc9-6376b92a7331" Name="0 Gnash / Lash (Delayed)" Enabled="true">
                 <Folders />
@@ -148,17 +148,22 @@
                           <Trigger Enabled="true" Name="Number Arrows Flag" Id="30c65f22-768f-4ae0-81a6-300821360d98" RegularExpression="(?&lt;name&gt;[a-zA-Z'\- ]+) suffers the effect of (Spineshatter Dive|Elusive Jump) Target">
                             <Actions>
                               <Action OrderNumber="1" OBSEndPoint="" VariableOp="SetNumeric" VariableName="dsr_OneArrows" VariableExpression="1" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
-                                <Condition Enabled="true" Grouping="And">
-                                  <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${lvar:dsr_Ones[1]}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                                <Condition Enabled="true" Grouping="Or">
+                                  <ConditionSingle Enabled="true" ExpressionL="${lvar:dsr_Ones[1]}" ExpressionTypeL="String" ExpressionR="${name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                                  <ConditionSingle Enabled="true" ExpressionL="${lvar:dsr_Ones[2]}" ExpressionTypeL="String" ExpressionR="${name}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                                 </Condition>
                               </Action>
                               <Action OrderNumber="2" OBSEndPoint="" VariableOp="SetNumeric" VariableName="dsr_ThreeArrows" VariableExpression="1" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
-                                <Condition Enabled="true" Grouping="And">
+                                <Condition Enabled="true" Grouping="Or">
                                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${lvar:dsr_Threes[1]}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                                  <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${lvar:dsr_Threes[2]}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                                 </Condition>
                               </Action>
+                              <Action OrderNumber="3" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" TriggerId="11a6e0f9-24d9-4553-929a-5fe5b93eb28d" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="100" RefireInterrupt="True">
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Action>
                             </Actions>
-                            <Condition Enabled="false" Grouping="Or" />
+                            <Condition Enabled="true" Grouping="Or" />
                           </Trigger>
                         </Triggers>
                       </Folder>
@@ -264,9 +269,9 @@
               <Folder Id="1cfc9a19-6294-4aa3-86fe-5b435e5e7037" Name="2 Callers" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="0 Sort Lists and Cleanup" Id="11a6e0f9-24d9-4553-929a-5fe5b93eb28d" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="0 Sort Lists, Call Everything" Id="11a6e0f9-24d9-4553-929a-5fe5b93eb28d" RegularExpression="" PeriodRefire="Deny" RefirePeriodExpression="1000">
                     <Actions>
-                      <Action OrderNumber="1" ListVariableOp="SortAlphaAsc" ListVariableName="dsr_Ones" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+                      <Action OrderNumber="1" ListVariableOp="SortAlphaAsc" ListVariableName="dsr_Ones" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable" ExecutionDelayExpression="100">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" ListVariableOp="SortAlphaAsc" ListVariableName="dsr_Twos" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
@@ -275,47 +280,60 @@
                       <Action OrderNumber="3" ListVariableOp="SortAlphaAsc" ListVariableName="dsr_Threes" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="4" OBSEndPoint="" VariableOp="UnsetAll" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" ExecutionDelayExpression="60000">
+                      <Action OrderNumber="4" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" TriggerId="97d5f0ad-743a-4d64-838a-7227fc2e2f8e" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="5" ListVariableOp="UnsetAll" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="ListVariable">
+                      <Action OrderNumber="5" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" TriggerId="58775c98-ecf3-414f-b3b9-b897a9c3a19f" TriggerForce="regexp" ActionType="Trigger">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="6" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" TriggerId="7815ec1f-f6bc-485a-8e3b-db38e8f08d9f" TriggerForce="regexp" ActionType="Trigger">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="7" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" TriggerId="328dc89a-e668-4613-9c48-8e7db697af49" TriggerForce="regexp" ActionType="Trigger">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="8" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" TriggerId="b213ebad-651c-461e-9b33-29bb19239244" TriggerForce="regexp" ActionType="Trigger">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="9" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" TriggerId="3a04dbdb-28f6-42e0-9522-34db45ca36c1" TriggerForce="regexp" ActionType="Trigger">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="10" OBSEndPoint="" VariableOp="UnsetAll" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" TriggerId="7c61d273-d96a-4338-b340-931a8557e37e" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="60000">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                     </Actions>
                     <Condition Enabled="true" Grouping="And" />
                   </Trigger>
-                  <Trigger Enabled="true" Name="1 First Arrow Caller" Id="97d5f0ad-743a-4d64-838a-7227fc2e2f8e" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="1 First Arrow Caller" Id="97d5f0ad-743a-4d64-838a-7227fc2e2f8e" RegularExpression="">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="West D West D Place Tower Face Correctly" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="100">
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
                         </Condition>
                       </Action>
                       <Action OrderNumber="2" OBSEndPoint="" UseTTSTextExpression="East B East B Place Tower Face Correctly" UseTTSVolumeExpression="0" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
                         </Condition>
                       </Action>
                       <Action OrderNumber="3" OBSEndPoint="" UseTTSTextExpression="Take West D Tower" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="20000">
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
                         </Condition>
                       </Action>
                       <Action OrderNumber="4" OBSEndPoint="" UseTTSTextExpression="Take East B Tower" UseTTSVolumeExpression="0" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
                         </Condition>
                       </Action>
                     </Actions>
-                    <Condition Enabled="true" Grouping="And">
-                      <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
-                      <ConditionGroup Enabled="true" Grouping="Or">
-                        <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="2" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                        <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                      </ConditionGroup>
-                    </Condition>
+                    <Condition Enabled="false" Grouping="And" />
                   </Trigger>
-                  <Trigger Enabled="true" Name="1 First Flex Caller" Id="58775c98-ecf3-414f-b3b9-b897a9c3a19f" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="1 First Flex Caller" Id="58775c98-ecf3-414f-b3b9-b897a9c3a19f" RegularExpression="">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="West D West D Place Tower" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="100">
                         <Condition Enabled="true" Grouping="Or">
@@ -340,7 +358,7 @@
                     </Actions>
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
-                      <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
                       <ConditionGroup Enabled="true" Grouping="Or">
                         <ConditionSingle Enabled="true" ExpressionL="${lvar:dsr_Ones[1]}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                         <ConditionSingle Enabled="true" ExpressionL="${lvar:dsr_Ones[3]}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
@@ -348,27 +366,32 @@
                       <ConditionSingle Enabled="true" ExpressionL="${var:dsr_OneArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringNotEqualNocase" />
                     </Condition>
                   </Trigger>
-                  <Trigger Enabled="true" Name="1 First North Caller" Id="7815ec1f-f6bc-485a-8e3b-db38e8f08d9f" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="1 First North Caller" Id="7815ec1f-f6bc-485a-8e3b-db38e8f08d9f" RegularExpression="">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="North A North A Place Tower" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="100">
-                        <Condition Enabled="true" Grouping="Or">
-                          <ConditionSingle Enabled="true" ExpressionL="${lvar:dsr_Ones[2]}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_OneArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                          <ConditionGroup Enabled="true" Grouping="Or">
+                            <ConditionSingle Enabled="true" ExpressionL="${lvar:dsr_Ones[2]}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:dsr_OneArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                          </ConditionGroup>
                         </Condition>
                       </Action>
-                      <Action OrderNumber="2" OBSEndPoint="" UseTTSTextExpression="Take North ATower" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="32000">
-                        <Condition Enabled="true" Grouping="Or">
-                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_OneArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                          <ConditionSingle Enabled="true" ExpressionL="${lvar:dsr_Ones[2]}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <Action OrderNumber="2" OBSEndPoint="" UseTTSTextExpression="Take North A Tower" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="32000">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionGroup Enabled="true" Grouping="Or">
+                            <ConditionSingle Enabled="true" ExpressionL="${lvar:dsr_Ones[2]}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:dsr_OneArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                          </ConditionGroup>
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                         </Condition>
                       </Action>
                     </Actions>
-                    <Condition Enabled="true" Grouping="And">
-                      <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
-                      <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                    </Condition>
+                    <Condition Enabled="true" Grouping="And" />
                   </Trigger>
-                  <Trigger Enabled="true" Name="2 Second Caller" Id="328dc89a-e668-4613-9c48-8e7db697af49" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="2 Second Caller" Id="328dc89a-e668-4613-9c48-8e7db697af49" RegularExpression="">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="West D West D" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="100">
                         <Condition Enabled="true" Grouping="Or">
@@ -390,12 +413,12 @@
                       </Action>
                       <Action OrderNumber="3" OBSEndPoint="" UseTTSTextExpression="Place Tower" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="15000">
                         <Condition Enabled="true" Grouping="Or">
-                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringEqualCase" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualCase" />
                         </Condition>
                       </Action>
                       <Action OrderNumber="4" OBSEndPoint="" UseTTSTextExpression="Place Tower Face Correctly" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                         <Condition Enabled="true" Grouping="Or">
-                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringNotEqualNocase" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringNotEqualNocase" />
                         </Condition>
                       </Action>
                       <Action OrderNumber="5" OBSEndPoint="" UseTTSTextExpression="Take West D Tower" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="18000">
@@ -418,10 +441,10 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="true" Grouping="And">
-                      <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="2" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
                   </Trigger>
-                  <Trigger Enabled="true" Name="3 Third Arrow Caller" Id="b213ebad-651c-461e-9b33-29bb19239244" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="3 Third Arrow Caller" Id="b213ebad-651c-461e-9b33-29bb19239244" RegularExpression="">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="West D West D" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="100">
                         <Condition Enabled="true" Grouping="And">
@@ -434,56 +457,79 @@
                         </Condition>
                       </Action>
                       <Action OrderNumber="3" OBSEndPoint="" UseTTSTextExpression="Take Tower" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="10000">
-                        <Condition Enabled="false" Grouping="Or" />
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                        </Condition>
                       </Action>
                       <Action OrderNumber="4" OBSEndPoint="" UseTTSTextExpression="Place Tower Face Correctly" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="18000">
-                        <Condition Enabled="false" Grouping="Or" />
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                        </Condition>
                       </Action>
                     </Actions>
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
                       <ConditionGroup Enabled="true" Grouping="Or">
-                        <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="2" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                        <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                        <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                        <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
                       </ConditionGroup>
                     </Condition>
                   </Trigger>
-                  <Trigger Enabled="true" Name="3 Third High Caller" Id="3a04dbdb-28f6-42e0-9522-34db45ca36c1" RegularExpression="Nidhogg uses Dive from Grace">
+                  <Trigger Enabled="true" Name="3 Third High Caller" Id="3a04dbdb-28f6-42e0-9522-34db45ca36c1" RegularExpression="">
                     <Actions>
                       <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="North A North A" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="100">
                         <Condition Enabled="true" Grouping="And">
-                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_ThreeArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_ThreeArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
                         </Condition>
                       </Action>
                       <Action OrderNumber="2" OBSEndPoint="" UseTTSTextExpression="West D West D" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="${lvar:dsr_Threes[1]}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_ThreeArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringNotEqualNocase" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_ThreeArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringNotEqualNocase" />
                         </Condition>
                       </Action>
                       <Action OrderNumber="3" OBSEndPoint="" UseTTSTextExpression="North A North A" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="${lvar:dsr_Threes[2]}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_ThreeArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringNotEqualNocase" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_ThreeArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringNotEqualNocase" />
                         </Condition>
                       </Action>
                       <Action OrderNumber="4" OBSEndPoint="" UseTTSTextExpression="East B East B" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="${lvar:dsr_Threes[3]}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_ThreeArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringNotEqualNocase" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_ThreeArrows}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringNotEqualNocase" />
                         </Condition>
                       </Action>
                       <Action OrderNumber="5" OBSEndPoint="" UseTTSTextExpression="Take Tower" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="10000">
-                        <Condition Enabled="false" Grouping="Or" />
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                        </Condition>
                       </Action>
                       <Action OrderNumber="6" OBSEndPoint="" UseTTSTextExpression="Place Tower" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS" ExecutionDelayExpression="18000">
-                        <Condition Enabled="false" Grouping="Or" />
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                        </Condition>
                       </Action>
                     </Actions>
                     <Condition Enabled="true" Grouping="And">
-                      <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                      <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Line}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:dsr_Dive}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="StringEqualNocase" />
                     </Condition>
+                  </Trigger>
+                  <Trigger Enabled="true" Name="0 Cleanup" Id="7c61d273-d96a-4338-b340-931a8557e37e" RegularExpression="0B3A::You are defeated">
+                    <Actions>
+                      <Action OrderNumber="1" OBSEndPoint="" VariableOp="UnsetAll" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="2" OBSEndPoint="" TableVariableOp="UnsetAll" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="TableVariable">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="3" OBSEndPoint="" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelAllTrigger" ActionType="Trigger">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -499,27 +545,53 @@
               </Trigger>
             </Triggers>
           </Folder>
+          <Folder Id="e1b8d677-0c6f-4563-9730-96f5fc9918b1" Name="Basic" Enabled="true">
+            <Folders>
+              <Folder Id="e1e70ca4-81b6-497a-b3fa-9c9975cbff80" Name="Gnash / Lash" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="Gnash and Lash" Id="ea71a09b-2500-410e-920a-f18d61643708" RegularExpression="Nidhogg readies Gnash and Lash.">
+                    <Actions>
+                      <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="out then in" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="Lash and Gnash" Id="5ccac9ad-06d1-4d45-adb2-81c01d4bee52" RegularExpression="Nidhogg readies Lash and Gnash.">
+                    <Actions>
+                      <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="In then Out" UseTTSExclusive="False" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
+                  </Trigger>
+                </Triggers>
+              </Folder>
+            </Folders>
+            <Triggers>
+              <Trigger Enabled="true" Name="Elusive Jump Target" Id="b401af7d-956f-4247-bc19-1055c3f19311" RegularExpression="You suffer the effect of Elusive Jump Target">
+                <Actions>
+                  <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="East B East B" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+              <Trigger Enabled="true" Name="Spineshatter" Id="34a25cdb-0626-447a-ac42-f48dcb8ff7e6" RegularExpression="You suffer the effect of Spineshatter Dive Target">
+                <Actions>
+                  <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="West D West D" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+              </Trigger>
+            </Triggers>
+          </Folder>
         </Folders>
-        <Triggers>
-          <Trigger Enabled="true" Name="Elusive Jump Target" Id="b401af7d-956f-4247-bc19-1055c3f19311" RegularExpression="You suffer the effect of Elusive Jump Target">
-            <Actions>
-              <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="East B East B" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
-                <Condition Enabled="false" Grouping="Or" />
-              </Action>
-            </Actions>
-            <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
-          </Trigger>
-          <Trigger Enabled="true" Name="Spineshatter" Id="34a25cdb-0626-447a-ac42-f48dcb8ff7e6" RegularExpression="You suffer the effect of Spineshatter Dive Target">
-            <Actions>
-              <Action OrderNumber="1" OBSEndPoint="" UseTTSTextExpression="West D West D" TextAuraFontSize="7.8" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
-                <Condition Enabled="false" Grouping="Or" />
-              </Action>
-            </Actions>
-            <Condition Enabled="false" Grouping="Or" />
-            <Conditions />
-          </Trigger>
-        </Triggers>
+        <Triggers />
       </Folder>
     </Folders>
     <Triggers />
